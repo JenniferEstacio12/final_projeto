@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap');
+/*importação de formatação*/
+
+* {
+  font-family: 'Arial', Helvetica, sans-serif;
+  /*fonte*/
+  margin: 0;
+  padding: 0;
+  /*margem*/
+  /*distanciamento*/
+  box-sizing: border-box;
+  /*largura de elementos*/
+  /*bordas*/
+  outline: none;
+  border: none;
+  /*bordas*/
+}
+
+/*começa o css global*/
+
+/*cabeçalho*/
+
+.cab {
+  height: 135px;
+  /*largura*/
+  padding: 15px;
+  /*distancia*/
+  color: white;
+  /*cor de fundo*/
+  background-color: rgb(125, 28, 216);
+  /*cor de fundo*/
+  text-align: center;
+  display: flex;
+}
+
+.logo .nome {
+  height: 100px;
+  width: 100px;
+}
+
+.logo {
+  padding-left: 25%;
+}
+
+.nome {
+  padding-top: 22px;
+  padding-left: 10px;
+}
+
+.img-logo {
+  height: 100px;
+  padding-left: 15px;
+}
+
+.athena {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  padding-left: 15px;
+}
+
+/*menu*/
+
+div.menu li a {
+  color: white;
+  /*cor de texto*/
+  background-color: rgb(78, 15, 137);
+  /*cor de fundo*/
+  text-align: center;
+  /*alinhar texto*/
+  text-decoration: none;
+  /*tirar formatação de menu*/
+  height: 50px;
+  /*largura*/
+  margin: 0 5px;
+  /*margem*/
+  padding: 15px;
+  /*distancia*/
+  display: inline-block;
+  /*rederizar*/
+}
+
+.menu ul li {
+  display: inline;
+  /*rederizar*/
+}
+
+.pad-menu {
+  padding-left: 45%;
+}
+
+.link-menu {
+  font-size: 20px;
+}
+
+.menu ul {
+  background-color: rgb(78, 15, 137);
+  /*cor de fundo*/
+  margin: 0;
+  /*margem*/
+  padding: 0;
+  /*distancia*/
+  list-style-type: none;
+  /*lista marcador*/
+}
+
+.menu li a:active {
+  background-color: rgb(78, 15, 137);
+  /*cor de fundo*/
+}
+
+.menu li a:hover {
+  background-color: rgb(138, 43, 226);
+  /*cor de fundo*/
+}
+
+.input .textarea {
+  font-size: 40%;
+  /*tamanho de fonte*/
+  width: 100%;
+  /*altura*/
+  border: none;
+  /*bordas*/
+  padding: 5px;
+  /*distancia*/
+  outline: none;
+  /*contorno*/
+}
+
+/*rodapé*/
+
+.rodape {
+  color: rgb(0, 0, 0);
+  /*cor de texto*/
+  height: 180px;
+  /*autura*/
+  color: white;
+  /*cor de fundo*/
+  background-color: rgb(125, 28, 216);
+  /*cor de fundo*/
+  text-align: left;
+  padding-left: 25px;
+}
+
+.fale {
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.contatos {
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+/*termina o css global*/
+
+/*começa o index*/
+
+#img {
+  position: absolute;
+  left: 370px;
+}
+
+.banner-inicio-page {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../image/img04.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  bottom: 100px;
+  border-radius: 2px;
+}
+
+.title-page-secondary {
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, 0.549);
+  min-width: 150px;
+  max-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 1em;
+  z-index: 1;
+}
+
+.container1 {
+  display: flex;
+  /*rederização*/
+  justify-content: center;
+  /*espaço*/
+  align-items: center;
+  /*aliamento*/
+  padding: 25px;
+  /*distanciamento*/
+  min-height: 80vh;
+  /*altura de elementos*/
+  background-color: blueviolet;
+  /*cor de fundo*/
+  color: rgb(10, 8, 8) !important;
+}
+
+.section.wb {
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+.message-box .lead {
+  padding-top: 10px;
+  font-size: 19px;
+  font-style: italic;
+  color: var(--textBlack);
+  padding-bottom: 0;
+}
+
+.message-box h2 {
+  font-size: 28px;
+  font-weight: 500;
+  padding: 0 0 10px;
+  margin: 0;
+  line-height: 62px;
+  margin-top: 0;
+  text-transform: none;
+}
+
+.box-text-page {
+  background-color: #fbfbfb;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 1em 0em;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.549);
+}
+
+.grid-somos {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: auto auto;
+  gap: 30px 30px;
+  padding-bottom: 100px;
+}
+
+.quem {
+  align-items: left;
+  /*aliamento*/
+  color: black;
+  /*cor*/
+  text-align: justify;
+  /*alinhamento*/
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  /*distanciamentos*/
+  min-height: 100vh;
+  /*altura de elementos*/
+  background-color: rgb(109, 21, 190);
+  /*cor de fundo*/
+}
+
+.box-somos {
+  background-color: rgb(255, 255, 255);
+  border: rgb(78, 15, 137) solid 3px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.549);
+}
+
+.somos {
+  text-align: center;
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 40px;
+  color: rgb(254, 254, 254);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.title-somos {
+  text-align: center;
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 29px;
+  color: rgb(0, 0, 0);
+}
+
+.p-somos {
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+/*termina o index*/
+
+/*começa o login/cadastro/pagamento*/
+
+/*formularios*/
+
+.container {
+  display: flex;
+  /*rederização*/
+  justify-content: center;
+  /*espaço*/
+  align-items: center;
+  /*aliamento*/
+  padding: 25px;
+  /*distanciamento*/
+  min-height: 100vh;
+  /*altura de elementos*/
+  background-color: rgb(109, 21, 190);
+  /*cor de fundo*/
+}
+
+.container form .botao {
+  width: 100%;
+  /*largura*/
+  padding: 12px;
+  /*distanciamento*/
+  font-size: 17px;
+  /*tamanho de fonte*/
+  background: rgb(109, 21, 190);
+  /*cor de letra principal*/
+  color: #fff;
+  /*cor de fonte*/
+  margin-top: 5px;
+  /*margem*/
+  cursor: pointer;
+  /*ponteiro de mão*/
+}
+
+.container form .row .col .title {
+  font-size: 20px;
+  /*tamanho de fonte*/
+  color: rgb(138, 43, 226);
+  /*cor de fonte*/
+  padding-bottom: 5px;
+  /*distanciamento*/
+  text-align: center;
+  /*alinhamento de texto*/
+}
+
+.container form .row .col .campos input {
+  width: 100%;
+  /*largura*/
+  border: 1px solid #ccc;
+  /*bordas*/
+  padding: 10px 15px;
+  /*distanciamento*/
+  font-size: 15px;
+  /*tamanho de fonte*/
+}
+
+.container form {
+  padding: 20px;
+  /*distanciamento*/
+  width: 850px;
+  /*largura*/
+  background: #fff;
+  /*cor de fundo do formulario*/
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.622);
+  /*?*/
+  border-radius: 10px;
+  /*borda*/
+}
+
+.dados {
+  border-radius: 10px;
+}
+
+.data {
+  width: 30px;
+  border-radius: 10px;
+}
+
+.container form .row {
+  display: flex;
+  /*rederização*/
+  flex-wrap: wrap;
+  /*quebra de linha*/
+  gap: 15px;
+  /*rederização*/
+}
+
+.container form .row .col {
+  flex: 1 1 250px;
+  /*alinhamento de layout*/
+}
+
+.container form .row .col .campos {
+  margin: 15px 0;
+  /*margens*/
+  padding: 10px;
+}
+
+.container form .row .col .campos span {
+  margin-bottom: 10px;
+  /*margem*/
+  display: block;
+  /*rederização*/
+}
+
+.container form .row .col .campos img {
+  height: 34px;
+  /*altura*/
+  margin-top: 5px;
+  /*margens*/
+  filter: drop-shadow(0 0 1px #000);
+  /*filtro*/
+}
+
+.container form .row .col .campos input:focus {
+  border: 1px solid #000;
+  /*bordas*/
+}
+
+.botao {
+  border-radius: 10px;
+  /*borda*/
+}
+
+.botao:hover {
+  background-color: rgb(138, 43, 226);
+  /*cor de fundo*/
+}
+
+/*o hover n tá funcionando*/
+
+.container form .row .col .flex {
+  display: flex;
+  /*rederização*/
+  gap: 15px;
+  /*espaçamento*/
+}
+
+.container form .row .col .flex .campos {
+  margin-top: 5px;
+  /*margem*/
+  cursor: pointer;
+  /*ponteiro de digitação*/
+}
+
+/*termina o login/cadastro/pagamento*/
+
+/*começa o catalogo de serviços*/
+
+.serv {
+  background-color: rgb(109, 21, 190);
+}
+
+.serv-title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+
+.serv-cards {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: auto auto auto auto;
+  gap: 30px 30px;
+  padding-bottom: 100px;
+  /*border: black solid 2px;*/
+}
+
+.card {
+  padding-top: 20px;
+  border: rgb(146, 89, 199) solid 3px;
+  border-radius: 10px;
+  border-style: groove;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.549);
+}
+
+.pad-div {
+  padding-left: 33, 33%;
+}
+
+.icon-card {
+  padding-left: 75px;
+}
+
+.nome-pro {
+  text-align: center;
+  padding: 10px;
+}
+
+.serv-img {
+  width: 50px;
+  height: 50px;
+  /*border: gray solid 2px;*/
+}
+
+.p-conte {
+  text-align: justify;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 15px;
+}
+
+.fun-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 70px;
+}
+
+/*termina o catalogo*/
